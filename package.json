@@ -1,8 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"description": "A project that does something awesome",
+	"keywords": ["freecodecamp","coding","lesson"],
+	"license":"MIT",
 	"author":"Adnan Hussen",
+	"version":"1.2.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"@freecodecamp/example":"~1.2.13"
+
 	},
 	"main": "server.js",
 	"scripts": {
